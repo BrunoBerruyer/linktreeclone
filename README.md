@@ -22,6 +22,8 @@ Advanced CSS3 (Flexbox/Grid) No external dependencies or frameworks
 
 🎨 Technical Details HTML
 
+HTML
+
 Semantic structure with header, main, and footer Logical organization of content in sections Images accompanied by alt attributes for accessibility Commented code for easier understanding
 
 CSS
@@ -32,7 +34,10 @@ Mobile-first approach with media queries for adaptability Use of Flexbox/Grid fo
 
 This project is designed to be scalable. Here are some planned improvements:
 
-Adding a dark/light mode Integrating click statistics on links Creating a backend to dynamically manage links Adding more complex animations
+Adding a dark/light mode
+Integrating click statistics on links
+Creating a backend to dynamically manage links
+Adding more complex animations
 
 📊 W3C Validation
 
