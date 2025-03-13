@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Métadonnées essentielles -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno Berruyer Linktree Clone</title>
+    
+    <!-- Configuration des favicons pour différentes plateformes -->
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    
+    <!-- Thème et style -->
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Police pixelisée Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- En-tête avec photo de profil et titres -->
+    <header>
+        <!-- Conteneur pour l'animation d'alternance des photos -->
+        <div class="profile-container">
+            <img src="profile-pic.png" alt="Photo de profil pixel art" class="profile-pic">
+            <img src="profile-pic-alt.png" alt="Photo de profil alternative" class="profile-pic-alt">
+        </div>
+        <!-- Titre principal avec animation arc-en-ciel -->
+        <h1 class="rainbow-text">BRUNO BERRUYER</h1>
+        <!-- Sous-titre avec profession -->
+        <h2>Graphic Designer - UX-UI</h2>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <!-- Section des liens professionnels -->
+        <section class="links-container" aria-labelledby="links-title">
+            <!-- Titre caché pour l'accessibilité -->
+            <h2 id="links-title" class="sr-only">Liens Professionnels</h2>
+            <!-- Boutons avec effet néon -->
+            <a href="https://brunoberruyer.github.io/portfolio/index.html" 
+               class="neon-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">Portfolio</a>
+            <a href="https://github.com/BrunoBerruyer" 
+               class="neon-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/bruno-berruyer-63a902293/" 
+               class="neon-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">LinkedIn</a>
+        </section>
+
+        <!-- Section des réseaux sociaux -->
+        <section class="social-icons" aria-labelledby="social-title">
+            <!-- Titre caché pour l'accessibilité -->
+            <h2 id="social-title" class="sr-only">Réseaux Sociaux</h2>
+            
+            <!-- Lien YouTube avec icône SVG -->
+            <a href="https://www.youtube.com/@brunoberruyer3696" 
+               class="social-icon" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                <svg class="pixel-icon" 
+                     viewBox="0 0 24 24" 
+                     width="40" 
+                     height="40" 
+                     xmlns="http://www.w3.org/2000/svg" 
+                     role="img" 
+                     aria-label="Youtube">
+                    <path d="M 4 6 h 16 v 12 h -16 z" 
+                          fill="none" 
+                          stroke="currentColor" 
+                          stroke-width="2" 
+                          stroke-linecap="square"/>
+                    <path d="M 8 9 v 6 l 6 -3 z" 
+                          fill="none" 
+                          stroke="currentColor" 
+                          stroke-width="2" 
+                          stroke-linecap="square"/>
+                </svg>
+            </a>
+
+            <!-- Lien Mixcloud avec icône SVG -->
+            <a href="https://www.mixcloud.com/DJbePs/" 
+               class="social-icon" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                <svg class="pixel-icon" 
+                     viewBox="0 0 24 24" 
+                     width="40" 
+                     height="40" 
+                     xmlns="http://www.w3.org/2000/svg" 
+                     role="img" 
+                     aria-label="Mixcloud">
+                    <path d="M 4 12 h 4 v 4 h -4 z 
+                           M 8 8 h 4 v 8 h -4 z 
+                           M 12 4 h 4 v 12 h -4 z 
+                           M 16 8 h 4 v 8 h -4 z" 
+                          fill="none" 
+                          stroke="currentColor" 
+                          stroke-width="2" 
+                          stroke-linecap="square"/>
+                </svg>
+            </a>
+
+            <!-- Lien Instagram avec icône SVG -->
+            <a href="https://www.instagram.com/brunoberruyer/" 
+               class="social-icon" 
+               target="_blank" 
+               rel="noopener noreferrer">
+                <svg class="pixel-icon" 
+                     viewBox="0 0 24 24" 
+                     width="40" 
+                     height="40" 
+                     xmlns="http://www.w3.org/2000/svg" 
+                     role="img" 
+                     aria-label="Instagram">
+                    <rect x="4" y="4" 
+                          width="16" 
+                          height="16" 
+                          fill="none" 
+                          stroke="currentColor" 
+                          stroke-width="2" 
+                          stroke-linecap="square"/>
+                    <rect x="8" y="8" 
+                          width="8" 
+                          height="8" 
+                          fill="none" 
+                          stroke="currentColor" 
+                          stroke-width="2" 
+                          stroke-linecap="square"/>
+                    <circle cx="17" cy="7" r="1" fill="currentColor"/>
+                </svg>
+            </a>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2025 - Bruno Berruyer 👾</p>
+    </footer>
+</body>
+</html>
