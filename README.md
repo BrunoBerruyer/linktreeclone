@@ -16,15 +16,9 @@ Mobile-first: Optimized primarily for mobile devices (360x800 dimensions) Respon
 
 🛠️ Technologies Used
 
-Semantic HTML5 Advanced CSS3 (Flexbox/Grid) No external dependencies or frameworks
+Semantic HTML5 
+Advanced CSS3 (Flexbox/Grid) No external dependencies or frameworks
 
-🚀 Installation and Launch
-
-Clone the repository bashCopygit clone (https://brunoberruyer.github.io/linktree/index.html) cd project-name
-
-Open the project
-
-Open index.html in your preferred browser Or use a local server like Live Server in VSCode
 
 🎨 Technical Details HTML
 
