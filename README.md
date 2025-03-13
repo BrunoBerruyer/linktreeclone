@@ -20,8 +20,7 @@ Semantic HTML5
 Advanced CSS3 (Flexbox/Grid) No external dependencies or frameworks
 
 
-🎨 Technical Details HTML
-
+🎨 Technical Details
 HTML
 
 Semantic structure with header, main, and footer Logical organization of content in sections Images accompanied by alt attributes for accessibility Commented code for easier understanding
